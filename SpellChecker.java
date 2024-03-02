@@ -64,7 +64,7 @@ public class SpellChecker {
 				similar = dictionary[i];
 			}
 		}
-		similar = min <= threshold ? similar:"";
+		similar = min <= threshold ? similar: word;
 		return similar;
 	}
 
